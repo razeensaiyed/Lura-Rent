@@ -1,0 +1,6 @@
+# Lura-Rent | Data Pipeline Dependencies
+# Install with: pip install -r requirements.txt
+
+pdfplumber>=0.11.0       # PDF text extraction
+google-genai>=1.0.0      # Gemini API (new SDK — do NOT use google-generativeai)
+tqdm>=4.66.0             # Progress bar
