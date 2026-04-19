@@ -1,0 +1,29 @@
+# ==========================================
+#  Lura-Rent | Data Pipeline .gitignore
+# ==========================================
+
+# Generated output — do not commit
+# Send dataset.json to Razeen directly (WhatsApp/Drive)
+dataset.json
+
+# PDF files — too large for Git, may have copyright
+pdfs/
+
+# API keys — NEVER commit these
+*.env
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
