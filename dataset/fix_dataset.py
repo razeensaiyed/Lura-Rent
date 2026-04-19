@@ -48,7 +48,7 @@ from tqdm import tqdm
 
 INPUT_FILE        = "./dataset.json"          # Your existing broken dataset
 OUTPUT_FILE       = "./dataset_fixed.json"    # Repaired output — never touches original
-GEMINI_API_KEY    = "AIzaSyCGBN7_oX6r1gSnyw58XsVOktHMqjGYxOU"                        # Paste your Gemini API key here: "AIza..."
+GEMINI_API_KEY    = ""                        # Paste your Gemini API key here: "AIza..."
 TEACHER_MODEL     = "models/gemini-2.5-flash"
 API_DELAY_SECONDS = 4.0                       # Safe under 15 req/min free tier limit
 MAX_RETRIES       = 3
